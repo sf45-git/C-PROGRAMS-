@@ -20,24 +20,44 @@ int main()
 
     num2 = num;
 
-    while(sum!=1)
+    while(num2 > 0 )
     {
-         for(i=num2; i>0; i/=10)
-        {
-           count ++;
-        }
-
+      sum = 0;
         for(i=num2; i>0; i/=10)
         {
            digit = i % 10;
-           result = digit * digit;
-           sum += result;
-           result = 1;
+           sum += digit * digit;
         }
         num2 = sum;
-    }   
+        printf("\nSum: %d", sum);
 
-    printf("\n%d", num2);
+        if(num2 / 10 == 0 && num2 != 1)
+        {
+         result = 0;
+         break;
+        }
+        while(num2 % 10 == 0)
+        {
+           num2 /= 10;
+        }
+       if(num2 == 1)
+        {
+          result = 1;
+          break;
+        }
+        num2 = sum;
+      }   
+    
+
+    if(result == 1)
+    {
+      printf("\n%d is a Happy Number.", num);
+    }
+    else
+    {
+      printf("\n%d is NOT a Happy Number.", num);
+    }
+    
 return 0;
 
 }
