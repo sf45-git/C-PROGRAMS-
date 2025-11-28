@@ -30,6 +30,7 @@ int main()
         {
             flag = 1;
             position = i;
+            break;
         }
     }
 

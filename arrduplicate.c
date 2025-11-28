@@ -22,6 +22,7 @@ int main()
         scanf("%d", &arr[i]);
     }
 
+    // Remove duplicate elements
     for(i=0; i<n; i++)
     {
         for(j=i+1; j<n; j++)
@@ -30,6 +31,7 @@ int main()
             {
                 for(k=j; k<n-1; k++)
                 {
+                    // Shift the elements after removing the duplicate element
                     arr[k] = arr[k+1];
                 }
 

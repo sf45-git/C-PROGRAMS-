@@ -46,8 +46,7 @@ int main()
           break;
         }
         num2 = sum;
-      }   
-    
+      }  
 
     if(result == 1)
     {

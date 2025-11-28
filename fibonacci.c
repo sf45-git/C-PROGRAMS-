@@ -1,7 +1,10 @@
 /*****************************************************************
   
-  WAPC to  display the following series: 1, 1, 2, 3, 5, 8, ... to n''-terms.
-  (This is the fibonacci series) Here, 'n' is the user input.
+WAPC to  display the following series: 
+
+1, 1, 2, 3, 5, 8, ... to n''-terms.
+
+(This is the Fibonacci series) Here, 'n' is the user input.
   
 *******************************************************************/
 

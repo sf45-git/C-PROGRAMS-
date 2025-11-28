@@ -19,7 +19,7 @@ int main()
 {
     float height, weight, bmi;
     int age;
-    printf("ENTER AGE, HEIGHT AND WEIGHT:\n");
+    printf("ENTER AGE, HEIGHT (in m) AND WEIGHT (in Kg):\n");
     scanf(" %d %f %f", &age, &height, &weight);
     
     bmi = weight / (height * height);

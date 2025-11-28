@@ -38,8 +38,6 @@ int main()
         square /= 10;
     }
 
-    printf("\n%d", result);
-
     if(result==num)
     {
         printf("\n%d is an Automorphic Number.", num);

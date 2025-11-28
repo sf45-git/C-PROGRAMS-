@@ -49,7 +49,7 @@ int main()
         arr[i] = temp;
     }
 
-    //Print the srted array
+    //Print the sorted array
     printf("\nThe sorted array is: ");
 
     for(i=0; i<n; i++)

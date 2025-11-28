@@ -8,11 +8,11 @@
 #include<stdio.h>
 int main ()
 {
-    int num, i;
-    printf("Enter the limit: ");
-    scanf("%d", &num);
+    int n, i;
+    printf("Enter the limit 'n': ");
+    scanf("%d", &n);
 
-    for(i=1;i<=num;i++)
+    for(i=1;i<=n;i++)
     {
         printf("%d\t",i);
     }
