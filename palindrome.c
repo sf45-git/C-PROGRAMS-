@@ -2,7 +2,8 @@
   
  WAPC to input a positive integer from the user. 
  Check and print if the number is palindrome or not. 
- Note: A palindrome number is a number that remains the same when its digits are reversed, for example, 121.
+ Note: A palindrome number is a number that remains the same when
+ its digits are reversed, for example, 121.
   
 *********************************************************************/
 
