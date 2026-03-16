@@ -1,3 +1,21 @@
+/*************************************************
+WAP to print the following patterns (with 'n' lines) according to the user's choice:
+
+1.      *              (Note: 'n' has to odd for this pattern.)
+      * * *
+    * * * * *  
+      * * * 
+        * 
+        
+2.      *
+      * *
+    * * *   
+  * * * *     
+* * * * *
+
+**************************************************/
+
+
 #include<stdio.h>
 
 void pattern_1(int num)
@@ -37,7 +55,7 @@ void pattern_1(int num)
     }
     }
     else{
-        printf("Number of lines has to be odd.");
+        printf("Number of lines has to be odd for this pattern.");
     }
 }
 
